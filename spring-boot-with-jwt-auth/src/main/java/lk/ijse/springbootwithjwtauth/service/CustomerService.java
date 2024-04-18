@@ -1,6 +1,6 @@
-package lk.ijse.springbootwithbasicauth.service;
+package lk.ijse.springbootwithjwtauth.service;
 
-import lk.ijse.springbootwithbasicauth.dto.CustomerDTO;
+import lk.ijse.springbootwithjwtauth.dto.CustomerDTO;
 import org.springframework.stereotype.Service;
 
 import java.util.List;

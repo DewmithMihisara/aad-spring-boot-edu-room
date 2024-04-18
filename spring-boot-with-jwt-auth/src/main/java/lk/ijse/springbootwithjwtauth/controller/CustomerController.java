@@ -1,7 +1,8 @@
-package lk.ijse.springbootwithbasicauth.controller;
+package lk.ijse.springbootwithjwtauth.controller;
 
-import lk.ijse.springbootwithbasicauth.dto.CustomerDTO;
-import lk.ijse.springbootwithbasicauth.service.CustomerService;
+
+import lk.ijse.springbootwithjwtauth.dto.CustomerDTO;
+import lk.ijse.springbootwithjwtauth.service.CustomerService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

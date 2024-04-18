@@ -1,4 +1,4 @@
-package lk.ijse.springbootwithbasicauth.dto;
+package lk.ijse.springbootwithjwtauth.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

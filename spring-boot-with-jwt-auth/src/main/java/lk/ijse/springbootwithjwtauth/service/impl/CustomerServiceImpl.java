@@ -1,9 +1,10 @@
-package lk.ijse.springbootwithbasicauth.service.impl;
+package lk.ijse.springbootwithjwtauth.service.impl;
 
-import lk.ijse.springbootwithbasicauth.dto.CustomerDTO;
-import lk.ijse.springbootwithbasicauth.entity.CustomerEntity;
-import lk.ijse.springbootwithbasicauth.repository.CustomerRepository;
-import lk.ijse.springbootwithbasicauth.service.CustomerService;
+
+import lk.ijse.springbootwithjwtauth.dto.CustomerDTO;
+import lk.ijse.springbootwithjwtauth.entity.CustomerEntity;
+import lk.ijse.springbootwithjwtauth.repository.CustomerRepository;
+import lk.ijse.springbootwithjwtauth.service.CustomerService;
 import org.modelmapper.ModelMapper;
 import org.modelmapper.TypeToken;
 import org.springframework.stereotype.Service;

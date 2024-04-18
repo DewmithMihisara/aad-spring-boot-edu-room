@@ -1,4 +1,4 @@
-package lk.ijse.springbootwithbasicauth.entity;
+package lk.ijse.springbootwithjwtauth.entity;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;

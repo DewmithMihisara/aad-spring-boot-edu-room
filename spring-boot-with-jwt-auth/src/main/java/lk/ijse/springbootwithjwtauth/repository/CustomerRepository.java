@@ -1,7 +1,8 @@
-package lk.ijse.springbootwithbasicauth.repository;
+package lk.ijse.springbootwithjwtauth.repository;
 
 
-import lk.ijse.springbootwithbasicauth.entity.CustomerEntity;
+
+import lk.ijse.springbootwithjwtauth.entity.CustomerEntity;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
