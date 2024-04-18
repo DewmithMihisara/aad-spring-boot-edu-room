@@ -1,5 +1,6 @@
 package lk.ijse.springbootwithjwtauth.dto;
 
+import lk.ijse.springbootwithjwtauth.util.Role;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -18,4 +19,5 @@ public class UserDTO {
     private String lastName;
     private String email;
     private String password;
+    private Role role;
 }
