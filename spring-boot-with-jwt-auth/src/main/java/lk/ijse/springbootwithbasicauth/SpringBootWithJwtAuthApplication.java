@@ -6,10 +6,10 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
 
 @SpringBootApplication
-public class SpringBootWithBasicAuthApplication {
+public class SpringBootWithJwtAuthApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SpringBootWithBasicAuthApplication.class, args);
+		SpringApplication.run(SpringBootWithJwtAuthApplication.class, args);
 	}
 	@Bean
 	public ModelMapper modelMapper(){

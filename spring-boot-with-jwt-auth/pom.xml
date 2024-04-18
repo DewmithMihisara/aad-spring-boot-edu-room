@@ -9,10 +9,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>lk.ijse</groupId>
-	<artifactId>spring-boot-with-basic-auth</artifactId>
+	<artifactId>spring-boot-with-jwt-auth</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>spring-boot-with-basic-auth</name>
-	<description>spring boot project with spring security basic authentication.</description>
+	<name>spring-boot-with-jwt-auth</name>
+	<description>spring boot project with spring security jwt authentication.</description>
 	<properties>
 		<java.version>21</java.version>
 	</properties>
