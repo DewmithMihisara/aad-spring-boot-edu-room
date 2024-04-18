@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
  * @since 0.0.1
  */
 @RestController
-@RequestMapping("/api/v1/users")
+@RequestMapping("/api/v1/auth")
 public class UserController {
 
 }
