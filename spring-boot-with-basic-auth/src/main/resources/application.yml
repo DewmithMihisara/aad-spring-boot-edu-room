@@ -1,0 +1,22 @@
+spring:
+  application:
+    name: spring-boot-with-basic-auth
+  datasource:
+    url: jdbc:mysql://localhost:3306/aad-springboot?createDatabaseIfNotExist=true
+    username: root
+    password: Dew@2005
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    hikari:
+      maximum-pool-size: 20
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQLDialect
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+
+server:
+  port: 8089
+  servlet:
+    context-path: /myapp
